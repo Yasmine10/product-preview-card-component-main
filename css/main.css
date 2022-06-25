@@ -117,7 +117,7 @@ body {
 
 @media (min-width: 768px) {
   .h1 {
-    max-width: 10ch;
+    max-width: 15ch;
     margin-bottom: 24px;
   }
 }
