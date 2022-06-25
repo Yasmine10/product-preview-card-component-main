@@ -112,7 +112,13 @@ body {
 
   color: var(--clr-neutral-very-dark-blue);
 
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .h1 {
+    margin-bottom: 24px;
+  }
 }
 
 /* UTILS */
@@ -162,6 +168,12 @@ body {
   margin-right: 16px;
 }
 
+@media (min-width: 768px) {
+  .btn.btn--primary {
+    margin-top: 30px;
+  }
+}
+
 /* PRODUCT CARD */
 
 .product {
@@ -207,7 +219,6 @@ body {
 
   margin-bottom: 12px;
 }
-
 
 .product__text {
   font-size: 14px;
@@ -258,9 +269,18 @@ body {
 
   .product__content {
     flex-basis: 50%;
+    margin: 32px;
+  }
+
+  .product__subtitle {
+    margin-bottom: 20px;
   }
 
   .product__text {
-    padding-right: 16px;
+    padding-right: 1px;
+  }
+
+  .product__price-container {2
+      margin-top: 29px;
   }
 }
